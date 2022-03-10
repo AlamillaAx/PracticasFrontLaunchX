@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device.width, initial-scale=1.0">
+        <title>Pedidos - Galactacos</title>
+    </head>
+    <body>
+        <h1>Aquí se hace el pedido</h1>
+        <form action="pedido.js">
+            <label for="Nombre">Danos tu nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" aria-placeholder="Nombre">
+            <br><br>
+            <label for="mesa">Tu mesa (Está el número abajo</label><br>
+            <input type="number" name="mesa" id="mesa" aria-placeholder="4">
+
+            <p>¿Para comer aquí o para llevar?</p>
+            <input type="radio" id="aqui" name="aquillevar" value="aqui">
+            <label for="Aqui">Aquí</label><br>
+            <input type="radio" id="llevar" name="aquillevar" vaue="llevar">
+            <label for="llevar">Llevar</label> <br><br>
+
+            <p>Elige tus tacos</p>
+            <input type="checkbox" id="mercurio" name="mercurio" value="mercurio">
+            <label for="mercurio">Mercurio</label>
+            <input type="number" id="contamercurio" name="contamercurio"><br>
+            <input type="checkbox" id="venus" name="venus" value="venus">
+            <label for="mercurio">Venus</label>
+            <input type="number" id="contavenus" name="contavenus"><br><br>
+
+            <p>Elige tus bebidas</p>
+            <select name="refresco" id="refresco">
+                <option value="cocacola">Coca Cola</option>
+                <option value="Manzana">Manzana</option>
+                <option value="Fanta">Fanta</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Sangria">Sangria</option>
+            </select>
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+        </form>
+    </body>
+</html>
