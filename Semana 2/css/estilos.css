@@ -1,0 +1,10 @@
+body{
+    background-color: #FFFBFD;
+}
+.contenedor{
+    width: 50%;
+    margin: 0 auto;
+}
+#lista{
+    text-align: center;
+}
