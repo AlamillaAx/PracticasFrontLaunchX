@@ -11,33 +11,36 @@
     </head>
     <body>
         <header>
-            <img src="./assets/img/mafille.png" alt="Mafille logo">
+            <center><img src="./assets/img/mafille.png" alt="Mafille logo"></center>
+            
         </header>
         <div class="nav-bar">
-            <a href="./Index.html" class="active">Home</a>
+            <a href="./Index.html">Home</a>
             <a href="./pedido.html">Pedidos</a>
             <a href="./contacto.html">Contacto</a>
-            <a href="./login.html">Log-in</a>
+            <a href="./login.html" class="active">Log-in</a>
+            <a href="./pastelero.html">Pastelero</a>
         </div>
         <div class="contenedor">
         <div> 
-            <h1 id="TB">Bienvenido a Ma Fille</h1>
-            <br>
-            <p>La Pastelería de Ma Fille tiene una base 100% casera. Los pasteles son hechos con recetas europeas y los hay de diferentes sabores, como chocolate, trufa o chabacano.</p>   
+            <h1 id="TB">Log in</h1>
         </div>
         <div class="lista">
-            <hr>
-            <h2 id="TB">Sabores de pastel</h3>
-            <p>Chocolate ........ $140</p>
-            <p>Vainilla ........ $100</p>
-            <p>Red Velvet ..... $250</p>
-            <p>Tres leches ..... $220</p>
-            <h2 id="TB">Adornos</h3>
-            <p>Velas ...... $40</p>
-            <p>Crema Turin ..... $100</p>
-            <p>Frutos rojos ...... $200</p>
-            <p>Fondant ......... $250</p>
-            <a href="./pedido.html"><button id="BPEDI">Realiza tu pedido!</button></a>
+            <form>
+                <ul>
+                    <li class="nomult">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" id="usuario" name="usuario">
+                    </li>
+                    <li class="nomult">
+                        <label form="contraseña">Contraseña</label>
+                        <input type="password" id="contraseña" name="contraseña">
+                    </li>
+                    <li class="button">
+                        <button type="submit" id="BPEDI">Iniciar sesión</button>
+                    </li>
+                </ul>
+            </form>
         </div>
         </div>
         <footer>

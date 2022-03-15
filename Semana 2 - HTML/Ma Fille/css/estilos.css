@@ -76,6 +76,22 @@ div .lista{
     background-color: #CD5C5C;
     color: white;
 }
+/*Inventario*/
+div .inventario{
+    text-align: center;
+    padding: 20px;
+}
+
+div .inventario table{
+    border-collapse: separate;
+    width: auto;
+    border: 1px solid #000;
+    margin: auto;
+}
+div .inventario td,th{
+    text-align: center;
+    border: 1px solid #000
+}
 
 /*-------FORMULARIO--------*/
 form {
@@ -98,10 +114,10 @@ form {
   label {
     display: inline-block;
     width: 90px;
-    /*text-align: right;*/
+    text-align: right;
   }
   
-  input,
+  .nomult input,
   textarea {
     font: 1em sans-serif;
     width: 300px;
@@ -109,7 +125,7 @@ form {
     border: 1px solid #999;
   }
   
-  input:focus,
+  .nomult input:focus,
   textarea:focus {
     border-color: #000;
   }
@@ -117,4 +133,7 @@ form {
   textarea {
     vertical-align: top;
     height: 5em;
-  }
+}
+  
+
+  
