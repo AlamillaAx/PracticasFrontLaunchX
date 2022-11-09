@@ -1,0 +1,677 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* BARRA DE NAVEGACIÓN*/
+.nav-bar img{
+    width: 250px;
+    height: 125px;
+    float: left;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.nav-bar{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFF;
+}
+nav{
+    float:right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+    padding: 75px 0;
+    float: left;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+#BE{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin-right: 70px;
+}
+
+/*  PRIMERA SECCIÓN */
+h1{
+    font-weight:900;
+    color:#183e6f;
+    font-size: 60px;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.seccion1{
+    display: flex;
+}
+.txtizq{
+    width: 50%;
+    height: 580px;
+    padding: 50px 185px 0px 100px;
+}
+.derecha{
+    background: url(../assets/img/nurse.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.logo{
+    width:25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#stop{
+    display: flex;
+    align-items: flex-end;
+    font-weight:bold;
+    color:#737f93;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 0px 70px 20px 0px;
+    letter-spacing: 0.3px;
+}
+
+.minisec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #183e6f;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0px 95px 20px 0px;
+    white-space: nowrap;
+}
+
+#best{
+    margin-left: 1%;
+    margin-right: 10%;
+}
+
+#bestlogo{
+    box-shadow:  #f6f9e7  -4px 54px 55px, #fff7b191  0px 4px 6px,  #fffeddd5  0px 12px 13px,  #fdf3b867 0px -3px 5px;
+}
+
+#sel{
+    margin-left: 1%;
+}
+
+#selelogo{
+    box-shadow:  #f6f9e7  -4px 54px 55px, #fff7b191  0px 4px 6px,  #fffeddd5  0px 12px 13px,  #fdf3b867 0px -3px 5px;
+}
+
+#schlogo{
+    box-shadow:  #e7f1f9  -4px 54px 55px, #b1c6ff91  0px 4px 6px,  #ddebffd5  0px 12px 13px,  #b8e9fd67 0px -3px 5px;
+}
+
+.schedule{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 75px 150px 0px 5px;
+    font-weight: bold;
+    color: #183e6f;
+}
+
+#sched{
+    padding-left: 10px;
+}
+
+.formulariocita{
+    display: flex;      
+    flex-direction:row;
+    position: absolute;
+    width: 62%;
+    height: 15%;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 95%;
+    margin:500px 0 0 125px;
+}
+
+.logoscitas{
+    display: flex;      
+    flex-direction:row;
+    position: absolute;
+    width: 40%;
+    height: 8%;   
+    align-items:center;
+    margin:500px 0 0 165px;
+    padding-top: 1%;
+    color:#737f93;
+    font-weight: bold;
+    white-space: nowrap !important;
+}
+
+#location{
+    padding-left: 10px;
+}
+
+#loc{
+    margin-left: 10%;
+    width: 28px;
+    height: 28px;
+}
+
+#date{
+    padding-left: 10px;
+}
+
+#dat{
+    margin-left: 15%;
+    width: 28px;
+    height: 28px;
+}
+
+#vactype{
+    padding-left: 10px;
+}
+
+#vacty{
+    margin-left: 20%;
+    width: 28px;
+    height: 28px;
+}
+
+.boton2{
+    display:flex;
+    position: absolute;
+    background-color: #2948c5;
+    color: white !important;
+    font-weight: 500 !important;
+    margin-left: 82%;
+    margin-top: 3%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 16px rgba(170,184,236,255);
+    width: 10%;
+    height: 45%;
+    align-items: center;
+    padding: 0% 0% 0% 2%;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.boton2:hover{
+    background-color: #183e6f;
+}
+
+option{
+    color: #2948c5;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+select{
+    color:#2948c5;
+    font-weight: bolder;
+    font-size: 17px;
+    border-color: #fbfcfe;
+    cursor: pointer;
+}
+
+.options{
+    display: flex;
+    position: absolute;
+    margin: 41% 0 0 0;
+    padding-bottom: 10px;
+}
+
+#moderna{
+    display: flex;
+    position: absolute;
+    margin: 0 0 10px 620px;
+}
+
+#july{
+    display: flex;
+    position: absolute;
+    margin: 0 0 0 437px;
+}
+
+#jakarta{
+    display: flex;
+    position: absolute;
+    margin: 0 0 0 250px;
+}
+
+/*banner vacunas*/
+.logosvacunas{
+    width:1000px;
+    margin: 0 0 0 2.3%;
+}
+
+/*Seccion 2*/
+.seccion2{
+    margin: 0 7% 0 7%;
+    height: 450px;
+}
+
+h2{
+    color:#183e6f;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+h4{
+    color:#183e6f;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.why p{
+    color:#737f93;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    padding: 0 60% 0 0;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0 7% 0;
+    padding: 2% 0%;
+    background-color: white;
+}
+
+.beneficios p{
+    color:#737f93;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.minimizar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 230px;
+    padding: 1.5%;
+    box-shadow: #f2f5fc 0px 8px 24px;
+    border-radius: 6px;
+    border-color: #f5f6fb;
+    border-width: 10px;
+    background-color: rgba(255,255,255,255);
+    cursor: pointer;
+}
+
+.logo2{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: #edeefc 0px 8px 24px;
+}
+
+#min:hover{
+    box-shadow:  #e7eef9  -4px 54px 55px, #e7eef9  0px 4px 6px,  #e7eef9  0px 12px 13px,  #e7eef9 0px -3px 5px;
+}
+
+.parraf{
+    padding-top: 15px;
+}
+
+/*TERCERA SECCION*/
+.seccion3{
+    display: flex;
+    margin-top: 9%;
+}
+
+.prepizq{
+    background: url(../assets/img/fondoazul.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.prepder{
+    height: 100vh;
+    width: 50%;
+    margin-left: 10%;
+
+}
+
+.logo3{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.prepder p{
+    color:#737f93;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+}
+
+details > summary {
+    width: 200px;
+    box-shadow: rgba(239, 243, 255, 255) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+  
+details > p {
+    background-color: #eeeeee;
+    padding: 4px 10px;
+    margin: 5px;
+}
+
+details > summary{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      width: 350px;
+}
+  
+details > summary::after{
+    content: url(../assets/img/triangle.png);
+    display:inline-flex;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+details{
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+details:hover{
+ box-shadow:  #e7f1f9  -4px 5px 5px, #b1c6ff91  0px 4px 6px,  #ddebffd5  0px 12px 13px;
+}
+
+details[open] > summary::after{
+    content: url(../assets/img/trianglegray.png);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display:inline-flex;
+    width: 15px;
+    height: 15px;
+    white-space: nowrap;
+}
+
+.accordion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    margin-top: 15%;
+    margin-left: 8%;
+    border-radius: 4px;
+}
+
+summary{
+    border-radius: 4px;
+}
+
+.contenido{
+    color:#737f93;
+    font-size: 13px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,250,255,0.6054796918767507) 52%, rgba(255,255,255,1) 100%);
+    box-shadow: rgba(239,243,252,255) 0px 48px 100px 0px;
+    margin: 5px 50px;
+}
+
+#pcentrar{
+    color:#1e3e73;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+details[open] summary ~ *{
+    animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+    from  {opacity: 0; margin-top: -8px}
+    to {opacity: 1; margin-top: 0px}
+}
+
+/* SECCION 4*/
+.seccion4{
+    display:flex;
+    height: 145vh;
+    margin-top: 8%;
+}
+
+.emergender{
+    background: url(../assets/img/docfondoazul.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    margin-top: 8%;
+}
+
+.emergenizq{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin: 6% 7% 0% 7%;
+}
+
+#pcontact{
+    color:#737f93;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    margin: 0 8% 0 1%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 5%;
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+    grid-auto-rows: 205px;
+}
+
+.logo4{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    border-radius: 8px;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.wrappercall{
+    box-shadow: rgba(227, 231, 241, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 10px;
+}
+
+.wrapperchat{
+    box-shadow: rgba(206, 218, 218, 0.24) 0px 2px 8px;
+    border-radius: 10px;
+}
+
+.wrappervideo{
+    box-shadow: #f2f5fc 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.wrappermessage{
+    box-shadow: #f2f5fc 0px 8px 24px;
+    border-radius: 10px;
+}
+
+#wacción{
+    color:#1e3e73;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 7%;
+}
+
+#wnumero{
+    color:#737f93;
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 12.5%;
+}
+
+#botoncontact{
+    width: 30%;
+    height:13%;
+    display: flex;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 23%;
+    align-items:center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #f1f5ff;
+    color: #3054d1;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#botoncontact:hover{
+    background-color: #2948c5;
+    color:white;
+    box-shadow: rgba(214, 223, 247, 0.486) 0px -12px 30px, rgba(185, 201, 253, 0.397) 0px 4px 6px, rgba(164, 170, 247, 0.425) 0px 12px 13px, rgba(230, 225, 252, 0.295) 0px -3px 5px;
+}
+
+/*FOOTER*/
+.foot{
+    width: 100%;
+}
+
+.superior{
+    display: flex;
+    margin-left: 3.5%;
+    height: 35vh;
+}
+
+.goal{
+    width:50%;
+}
+
+.about{
+    width:50%;
+    display: flex;
+    justify-content:space-between;
+    margin: 2% 5% 5% 10%;
+}
+.about ul li{
+    list-style-type: none;
+}
+
+.goal h2{
+    color:#3054d1;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 30%;
+    height: 5vh;
+}
+
+.goal p{
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 30%;
+    line-height: 23px;
+}
+
+.about a{
+    color:#737f93;
+    line-height: 35px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color:#183e6f;
+}
+
+#aboutbold{
+    font-weight: bolder;
+    color:#183e6f;
+    font-size: 17px;
+    margin-bottom: 25%;
+}
+
+.inferior{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+footer p{
+    color:#737f93;
+    font-size: 14px;
+}
+
+#term{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 19%;
+    margin-top:4.2%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    font-size: 14px;
+}
+#rights{
+    display: flex;
+    width: 28%;
+    margin-top:3%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+}
+
+.footerfondo{
+    background-image: url(../assets/img/fondofooter.png);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
