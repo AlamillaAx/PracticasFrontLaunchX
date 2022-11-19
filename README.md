@@ -13,6 +13,10 @@ Practicas semana 2 - HTML:
 
 Practicas semana 3 - CSS:
 
--Vaccination
+- Vaccination
+
+Practicas semana 4 - Js:
+
+- Pokedex Launch X V 1.0
 
 
