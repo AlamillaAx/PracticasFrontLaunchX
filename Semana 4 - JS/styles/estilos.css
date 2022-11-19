@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    
+
+}
+
+/* Inicio barra de navegación*/
+header{
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    background-color: #ef5350 /*#9E2B25*/;
+}
+
+footer{
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    background-color: #ef5350 /*#9E2B25*/;
+}
+
+/* BARRA DE NAVEGACIÓN*/
+.nav-bar h1{
+    width: 100px;
+    /*/height: 20px;*/
+    font-family: 'Pokemon Solid', sans-serif;
+    float: left;
+    padding: 0;
+    /*margin-top: 0px;*/
+    margin-left: 100px;
+    color: yellow;
+    -webkit-text-stroke: 1px #31099E;
+    font-size: 25px;
+}
+.nav-bar{
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    float:right;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+    padding: 25px 0;
+    float: left;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Lato,sans-serif;
+}
+
+
+/*Fin barra de navegación*/
+
+#Launch{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: yellow;
+    -webkit-text-stroke: 1px #31099E;
+    text-align: center;
+    
+}
+.pokedex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../assets/img/Pokedex1.png");
+    width: 800px;
+    height: 600px;
+    /*position: absolute;*/
+    margin: 60px auto; /*centrar div*/
+    border-radius: 10px;
+    /*position: absolute;*/
+}
+
+.pokePhoto{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    max-width: 180px;
+    position: relative;
+    top: -40px; left: 10px; 
+}
+
+.image{
+    width: 100px;
+    
+}
+.pokeNombre{
+    color: black;
+    position: absolute;
+    top: 120px; left:10px;
+    text-transform: capitalize;
+}
+.pokeInfo{
+    display:flex;
+    flex-direction: column;
+    position: relative; 
+    top: -30px; left: 0px;
+    
+}
+
+.pokeScreen{
+    color: #FFFB00;
+    width: 150px;
+    height: 100px;
+    font-size: 12;
+    align-items: center;
+}
+
+.busca{
+    display:flex;
+    flex-direction: column;
+    position: relative; 
+    top: -30px; left: 30px;
+}
